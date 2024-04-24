@@ -6,7 +6,7 @@ Known to work with Dagger v0.9.5 and v0.9.8.
 
 List the S3 buckets in your account:
 ```
-dagger call -m github.com/lukemarsden/dagger-aws list --aws-credentials ~/.aws/credentials
+dagger call -m github.com/daggerverse/dagger-aws list --aws-credentials ~/.aws/credentials
 ```
 
 ## Push Image to Private ECR Repo
@@ -16,7 +16,7 @@ This module lets you push container images from Dagger to ECR without having to 
 From CLI, to push `ubuntu:latest` to a given ECR repo, by way of example:
 
 ```
-dagger call -m github.com/lukemarsden/dagger-aws \
+dagger call -m github.com/daggerverse/dagger-aws \
     ecr-push-example --region us-east-1 \
     --aws-credentials ~/.aws/credentials \
     --aws-account-id 12345 --repo test

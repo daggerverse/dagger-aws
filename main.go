@@ -2,7 +2,7 @@
 //
 // This module lets you push a container into ECR, automating the tedious manual steps of configuring your local docker daemon with the credentials
 //
-// For more info and sample usage, check the readme: https://github.com/lukemarsden/dagger-aws
+// For more info and sample usage, check the readme: https://github.com/daggerverse/dagger-aws
 
 package main
 
